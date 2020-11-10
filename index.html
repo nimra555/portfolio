@@ -1,82 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- font awsome link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/0413a50a0f.js" crossorigin="anonymous"></script>
+    <!-- google fonts link  -->
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
     <!-- bootstrap link  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/0413a50a0f.js" crossorigin="anonymous"></script>  
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- start header  -->
-        <nav class="navbar navbar-expand-lg bg-primary mb-4" id="top">
-            <!-- name image  -->
-        <img src="images/nimra-logo.png" width="200">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon bg-dark p-1"><i class="fas fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item ">
-                <!-- links  -->
-                <a class="nav-link mx-2" href="#skills">Skill </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mx-2" href="#my-project">Project</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mx-2" href="#achievemennt">Certificate</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mx-2" href="#contact-us">Contact</a>
-            </li>
-          </ul>
+    <div class="container-fluid nav_bg bg-primary">
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-light text-uppercase" to="#">Nimra</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                                <li class="nav-item mx-2">
+                                    <a activeclass="menu_active" class="nav-link text-light" aria-current="page"
+                                        href="#">Home</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a activeclass="menu_active" class="nav-link text-light" href="#about">About</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a activeclass="menu_active" class="nav-link text-light" href="#skills">Skills</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a activeclass="menu_active" class="nav-link text-light" href="#project">Portfolio</a>
+                                </li>
+                        
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
-      </nav>
-      <!-- end header  -->
-      <!-- start about  -->
-    <section class="about mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="ml-5">
-                        <!-- my image -->
-                        <img src="images/WIN_20190421_152858.JPG" alt="my-image" class="rounded-circle" height="250px"
-                            width="250px">
-                    </div>
+    </div>
+    <!-- end header  -->
+    <!-- start about  -->
+
+    <div class="section">
+        <div class="container my-5">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-8 d-flex flex-column text-primary">
+                    <h2>Hi,<br> I'm NIMRA,<br>Web Designer and Developer.</h2>
+                    <p>HTML / CSS / Bootstrap / JavaScript / React </p>
+                    <a href="#contact"><button class="mt-4 mb-2 bg-primary text-light contact-btn">Contact me</button></a>
                 </div>
-                <div class="col-md-6">
-                    <div class="mx-2 my-1">
-                        <!-- my introduction  -->
-                        <h1 class="about-head">Hello!</h1>
-                        <h3 class="about-subHead">a little bit about me..</h3>
-                        <p>
-                            Hi! I am a passionate web designer and developer.<br>
-                            My passion brought me into this field even I had commerce background.<br>I will try to do any work with full determination and courage.
-                        </p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus minus tenetur sequi ducimus maiores amet, asperiores, cum fugit perspiciatis ex autem veniam dicta hic nihil facilis natus dignissimos id voluptas.
-                        </p>
-                    </div>
+              
+                <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <!-- my image -->
+                    <img src="images/WIN_20190421_152858.JPG" alt="my-image" class="rounded-circle" height="250"
+                        width="250">
                 </div>
             </div>
         </div>
+    </div>
+<hr>
+    <div class="section">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-12 text-center" id="about">
+                    <!-- my introduction  --> 
+                    <h1 class="display-4 font-bold text-primary text-uppercase">About</h1>
+                    <h3 class="about-subHead">a little bit about me..</h3>
+                    <p class="lead">
+                        Hi! My Name is Nimra Sharif I am a passionate web designer and developer.<br>
+                        My passion brought me into this field even I had commerce background.<br>I will try to do
+                        any work with full determination and courage.
+                    </p>
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus minus tenetur
+                        sequiducimus maiores amet, asperiores, cum fugit perspiciatis ex autem veniam dicta hic nihil
+                        facilis natus dignissimos id voluptas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
+    
     <!-- end of about  -->
     <!-- start skills section  -->
-    <section class="main-skills mt-5" id="skills">
+    <section class="main-skills" id="skills">
         <div class="container content">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center text-light">My Skill</h1>
+                    <h1 class="text-center text-light display-4">My Skills</h1>
                     <ul id="skill">
                         <li><span class="expand html5"></span><em>HTML</em></li>
                         <li><span class="expand css3"></span><em>CSS</em></li>
@@ -91,135 +124,105 @@
     </section>
     <!-- end of skills section  -->
     <!-- start project section  -->
-    <section class="project mt-5" id="my-project">
-        <div class="container">
-            <h1 class="project-head">Project</h1>
-            <div class="row">
-                <!-- first project  -->
-                <div class="col-md-4 image">
-                    <img src="images/grid-task.png" width="300" alt="">
-                    <a href="https://nimra555.github.io/grid-task/ " target="_blank">
-                        <h3 class="text-center">Priodic Table</h3>
-                    </a>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-12" id="project">
+                <h1 class="display-4 text-primary text-uppercase text-center">
+                    My Projects
+                </h1>
+            </div>
+        </div>
+        <div class="row my-5 d-flex justify-content-center">
+            <div class="col-md-4 col-xs-12 my-1 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/grid-task.png" class="card-img-top" alt="Grid" height="135">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Priodic Table</h5>
+                        <a href="https://nimra555.github.io/grid-task/ " target="_blank" class="btn btn-primary">Click
+                            to See...</a>
+                    </div>
                 </div>
-                 <!-- second project  -->
-                <div class="col-md-4 image">
-                    <img src="images/theme.png" width="300" alt="">
-                    <a href="https://nimra555.github.io/theme-change/ " target="_blank">
-                        <h3 class="text-center">Theme Change</h3>
-                    </a>
+            </div>
+            <div class="col-md-4 col-xs-12 my-1 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/fruitTask.png" class="card-img-top" alt="fruitTask" height="135">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Fruit Task</h5>
+                        <a href="https://nimra555.github.io/fruit-shop/ " target="_blank" class="btn btn-primary">Click
+                            to See...</a>
+                    </div>
                 </div>
-                 <!-- third project  -->
-                <div class="col-md-4 image">
-                    <img src="images/fruitTask.png" width="300" height="150px" alt="">
-                    <a href="https://nimra555.github.io/fruit-shop/ " target="_blank">
-                        <h3 class="text-center">Fruit Task</h3>
-                    </a>
-                </div>
-                 <!-- fourth project  -->
-                <div class="col-md-4 image">
-                    <img src="images/baby-shop.jpg" width="300" height="150px" alt="">
-                    <a href="https://nimra555.github.io/baby-shop/ " target="_blank">
-                        <h3 class="text-center">Baby Website</h3>
-                    </a>
-                </div>
-                 <!-- five project  -->
-                <div class="col-md-4 image">
-                    <img src="images/calculator.png" width="300" alt="">
-                    <a href="https://nimra555.github.io/calculator/ " target="_blank">
-                        <h3 class="text-center">Calculator</h3>
-                    </a>
-                </div>
-                 <!-- six project  -->
-                <div class="col-md-4 image">
-                    <img src="images/Google Signup.png" width="300" height="150px" alt="">
-                    <a href="https://nimra555.github.io/js-form/" target="_blank">
-                        <h3>Google Signup Form</h3>
-                    </a>
+            </div>
+            <div class="col-md-4 col-xs-12 my-1 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/theme.png" class="card-img-top" alt="theme" height="135">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Theme Change</h5>
+                        <a href="https://nimra555.github.io/theme-change/ " target="_blank"
+                            class="btn btn-primary">Click to See...</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- end of projects -->
-    <!-- start certificate section  -->
-    <section class="certificate mb-3" id="achievemennt">
-        <div class="container">
-            <h1 class="project-head">certificate</h1>
-            <div class="row">
-                <!-- first certificate -->
-                <div class="col-md-4">
-                    <img src="images/screencapture-scrimba-certificate-umMNGzfw-gbootstrap4-2020-06-26-03_46_11.png "
-                        width="300" class="img-animate" alt="">
+
+        <div class="row my-5 d-flex justify-content-center">
+            <div class="col-md-4 col-xs-12 my-1 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/baby-shop.jpg" class="card-img-top" alt="baby shop" height="135">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Baby Website</h5>
+                        <a href="https://nimra555.github.io/baby-shop/ " target="_blank" class="btn btn-primary">Click
+                            to See...</a>
+                    </div>
                 </div>
-                <!-- second certificate -->
-                <div class="col-md-4">
-                    <img src="images/screencapture-scrimba-certificate-umMNGzfw-gbootstrap4-2020-06-26-03_46_11.png"
-                        width="300" class="img-animate" alt="">
+            </div>
+            <div class="col-md-4 col-xs-12 my-1 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/calculator.png" class="card-img-top" alt="calculator" height="135">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Calculator</h5>
+                        <a href="https://nimra555.github.io/calculator/ " target="_blank" class="btn btn-primary">Click
+                            to See...</a>
+                    </div>
                 </div>
-                <!-- third certificate -->
-                <div class="col-md-4">
-                    <img src="images/screencapture-scrimba-certificate-umMNGzfw-gbootstrap4-2020-06-26-03_46_11.png"
-                        width="300" class="img-animate" alt=""> 
-                </div>
-            </div>    
-    </section>
-    <!-- end of certificate -->
-    <!-- start contact details -->
-    <section class="contact mt-5 mb-5" id="contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 class="project-head">CONTACT</h2>
-                    <p class="text-center"><strong class="project-contact">Cell:</strong> 123-456-7890</p>
-                    <p class="text-center"><strong class="project-contact">Email:</strong> rosegulab505@gmail.com</p>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="form-head">Looking forward to answering your email</h3>
-                    <form action="#" method="get">
-                        <input type="text" placeholder="Name" ><br>
-                        <input type="email" placeholder="Email" ><br>
-                        <input type="text" placeholder="Phone"><br>
-                        <textarea name="" id="message" cols="50" rows="8">Type your message here...</textarea>
-                        <input type="submit" value="Submit">
-                    </form>
+            </div>
+            <div class="col-md-4 col-xs-12 my-1 d-flex justify-content-around">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/Google Signup.png" class="card-img-top" alt="google Signup" height="135">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Google Signup Form</h5>
+                        <a href="https://nimra555.github.io/js-form/" target="_blank" class="btn btn-primary">Click to
+                            See...</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- end of contact details -->
-    <!-- start of footer  -->
-    <section class="footer bg-primary">
-       <div class="container">
-           <div class="row">
-               <div class="col-md-3">
-                <i class="fas fa-phone-square-alt icon" ></i>
-                   <span>Call</span>
-                   <p>T:0872266373636</p>
-                   <p>F:0872266373636</p>
-               </div>
-               <div class="col-md-3">
-                <i class="far fa-envelope icon"></i>
-                <span>Contact</span>
-                <p>rosegulab505@gmail.com</p>
-            </div>
-            <div class="col-md-3">
-                <i class="fas fa-plus-circle icon"></i>
-                <span class="follow">Follow me</span> <br> 
-                <a href="https://github.com/" target="_blank"><i class="fab fa-github follow-github"></i></a>
-                <a href="https://www.linkedin.com/in/nimra-sharif-aa3284164/" target="_blank"><i class="fab fa-linkedin-in follow-linkedin"></i></a>
-            </div>
-            <div class="col-md-3">
-                <i class="far fa-copyright icon"></i>
-                <span>&copy; by NIMRA SHARIF</span>
-            </div>
-           </div>
-       </div>        
-       <!-- end of footer  -->
-       <!-- top to bottom  -->
-       <div class="bottom">
-        <p><a href="#top"><i class="fas fa-arrow-up"></i></a></p>
     </div>
-    <!-- end top to bottom  -->
+    <!-- end of projects -->
+    <!-- start of footer  -->
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row bg-primary d-flex justify-content-around align-items-center" id="contact">
+                <div class="col-md-6 d-flex justify-content-around align-items-center">
+                    <p class="text-light"><strong class="project-contact text-light">Cell:</strong> 92-306-8299853</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-around align-items-center">
+                    <p class="text-light"><strong class="project-contact text-light">Email:</strong> nimrasharif882@gmail.com</p>
+                </div>
+            </div>
+            <div class="row">    
+                <div class="col-md-12 text-center">
+                    <span class="text-primary">Copyright &copy; by NIMRA SHARIF</span>
+                </div>
+            </div>
+        </div>
+        <!-- end of footer  -->
+        <!-- top to bottom  -->
+        <div class="bottom">
+            <p><a href="#top"><i class="fas fa-arrow-up"></i></a></p>
+        </div>
+        <!-- end top to bottom  -->
     </section>
 </body>
 
